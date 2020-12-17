@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    android:background="#022332"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Welcome to Tic Tac Toe"
+        android:textColor="#34C9DC"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="Player 1 Turn"
+        android:textColor="#ADD381"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#9070CA"
+            android:textSize="50sp"
+            android:textColor="#352455"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textColor="#145159"
+            android:background="#0FCCE4"
+            android:textSize="50sp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#9070CA"
+            android:textSize="50sp"
+            android:textColor="#352455"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#0FCCE4"
+            android:textStyle="bold"
+            android:textColor="#145159"
+            android:textSize="50sp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#9070CA"
+            android:textColor="#352455"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#0FCCE4"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#145159"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#9070CA"
+            android:textColor="#352455"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#0FCCE4"
+            android:textStyle="bold"
+            android:textColor="#145159"
+            android:textSize="50sp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#9070CA"
+            android:textSize="50sp"
+            android:textColor="#352455"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#78D57B"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#021D29"
+        android:text="Reset Game" />
+
+
+</LinearLayout>
